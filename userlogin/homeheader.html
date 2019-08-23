@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="top-line">
+
+  </div>
+  <nav style="position:relative;top:3px;" class="navbar navbar-inverse">
+  <div class="container-fluid ">
+    <div class="navbar-header " >
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">JSSATEB</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="#">Home</a></li>
+        <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+
+        <!-- <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $_SESSION["user"]; ?> <span class="caret"></span></a>
+          <ul class="dropdown-menu " style="background-color:#2f3030;">
+            <li><a class="bg" href="#" style="color:#b5b5b5;">Events</a></li>
+            <li><a class="bg" href="#" style="color:#b5b5b5;">News</a></li>
+            <li><a class="bg" href="#" style="color:#b5b5b5;">Profile</a></li>
+
+            <li><a style="color:#b5b5b5;" href="logout.php" onclick=""><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+          </ul>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+</body>
+</html>

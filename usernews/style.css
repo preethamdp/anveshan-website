@@ -1,0 +1,33 @@
+
+.login{
+  margin-top: 10%;
+  background:rgba(1,1,1,0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+padding-top: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 8%;
+}
+button{
+  box-shadow: inset 3px 0px 34px -11px rgba(0,0,0,0.63);
+}
+
+.top-line{
+  background-color:#f38632;
+  height: 3px;
+  width: auto;
+  position:relative;
+  top:0px;
+  
+
+}
+.img{
+  height:50px;
+  width:50px;
+}
+.delete{
+  background-color: coral;
+}
